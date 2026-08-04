@@ -156,7 +156,7 @@ h3 { font-size: 1.2rem; }
 .hero--photo {
   background:
     linear-gradient(to left, rgba(7,27,51,.98) 0%, rgba(11,37,69,.9) 45%, rgba(11,37,69,.68) 100%),
-    url('/zeynpack/img/generated/hero-production.webp') center/cover no-repeat;
+    url('../img/generated/hero-production.webp') center/cover no-repeat;
 }
 .hero--photo::after { opacity: .16; }
 .hero--photo .hero-inner { grid-template-columns: 1fr; padding: 110px 0 96px; }
