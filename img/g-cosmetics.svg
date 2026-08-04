@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="cos" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6d5e2"/>
+      <stop offset="1" stop-color="#e9a8c4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- cream jar -->
+  <path d="M104 84 h92 v12 a8 8 0 0 1 -8 8 h-76 a8 8 0 0 1 -8 -8 z" fill="#e8631b"/>
+  <rect x="96" y="104" width="108" height="88" rx="18" fill="url(#cos)"/>
+  <rect x="96" y="104" width="108" height="88" rx="18" fill="none" stroke="#c97a99" stroke-width="2"/>
+  <!-- minimal label -->
+  <path d="M150 148 m-18 0 a18 18 0 1 0 36 0 a18 18 0 1 0 -36 0" fill="none" stroke="#b0436f" stroke-width="3"/>
+  <path d="M150 128 v40 M130 148 h40" stroke="#b0436f" stroke-width="2.5" opacity=".7"/>
+  <rect x="120" y="116" width="60" height="6" rx="3" fill="#fff" opacity=".9"/>
+  <text x="150" y="52" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#b0436f">تصميم تجميلي فاخر</text>
+</svg>

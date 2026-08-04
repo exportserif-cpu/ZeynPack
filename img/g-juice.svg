@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="jui" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb74d"/>
+      <stop offset="1" stop-color="#f57c00"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- juice carton -->
+  <path d="M116 48 h68 v18 a10 10 0 0 1 -10 10 h-48 a10 10 0 0 1 -10 -10 z" fill="#071b33"/>
+  <rect x="104" y="76" width="92" height="116" rx="8" fill="#fff7ec"/>
+  <!-- sleeve design -->
+  <rect x="104" y="76" width="92" height="56" fill="url(#jui)"/>
+  <path d="M104 76 h92 v14 h-92 z" fill="#fff" opacity=".85"/>
+  <circle cx="150" cy="100" r="13" fill="#fff" opacity=".95"/>
+  <path d="M150 91 q8 9 0 18 q-8 -9 0 -18" fill="#f57c00"/>
+  <rect x="122" y="124" width="56" height="6" rx="3" fill="#fff" opacity=".9"/>
+  <rect x="128" y="134" width="44" height="5" rx="2.5" fill="#fff" opacity=".6"/>
+  <!-- fruit dots -->
+  <g fill="#f57c00" opacity=".7">
+    <circle cx="130" cy="158" r="5"/><circle cx="150" cy="162" r="5"/><circle cx="170" cy="158" r="5"/>
+  </g>
+  <text x="150" y="52" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#f57c00">كم انكماش عصير</text>
+</svg>

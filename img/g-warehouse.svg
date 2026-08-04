@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="wh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eef5"/>
+      <stop offset="1" stop-color="#c8d4e0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- box -->
+  <rect x="96" y="104" width="108" height="76" rx="8" fill="#d7a86e"/>
+  <rect x="96" y="104" width="108" height="76" rx="8" fill="none" stroke="#a87a44" stroke-width="2"/>
+  <path d="M96 104 l54 -26 l54 26" fill="none" stroke="#a87a44" stroke-width="2"/>
+  <!-- shipping label -->
+  <rect x="118" y="118" width="64" height="48" rx="5" fill="url(#wh)"/>
+  <g fill="#0b2545">
+    <rect x="126" y="126" width="3" height="16"/><rect x="131" y="126" width="2" height="16"/>
+    <rect x="135" y="126" width="4" height="16"/><rect x="141" y="126" width="2" height="16"/>
+    <rect x="145" y="126" width="3" height="16"/><rect x="150" y="126" width="5" height="16"/>
+    <rect x="157" y="126" width="2" height="16"/><rect x="161" y="126" width="3" height="16"/>
+    <rect x="166" y="126" width="4" height="16"/><rect x="172" y="126" width="2" height="16"/>
+  </g>
+  <rect x="126" y="148" width="48" height="4" rx="2" fill="#0b2545" opacity=".8"/>
+  <rect x="126" y="155" width="30" height="3.5" rx="1.75" fill="#0b2545" opacity=".5"/>
+  <!-- scanner beam -->
+  <path d="M222 78 l-14 30" stroke="#e8631b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M222 78 l-22 -8" stroke="#e8631b" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="222" cy="78" r="5" fill="#e8631b"/>
+  <text x="150" y="52" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#0b2545">ملصق شحن ومخازن</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="therm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd0e0"/>
+      <stop offset="1" stop-color="#3d8ba5"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- fanfold stack -->
+  <rect x="70" y="96" width="160" height="44" rx="6" fill="#0b2545"/>
+  <rect x="62" y="110" width="176" height="44" rx="6" fill="#ffffff" stroke="#d8e1ea" stroke-width="2"/>
+  <rect x="70" y="124" width="160" height="44" rx="6" fill="url(#therm)"/>
+  <!-- barcode on top label -->
+  <g fill="#0b2545">
+    <rect x="90" y="86" width="5" height="30"/><rect x="99" y="86" width="2" height="30"/>
+    <rect x="105" y="86" width="6" height="30"/><rect x="115" y="86" width="2" height="30"/>
+    <rect x="121" y="86" width="5" height="30"/><rect x="130" y="86" width="8" height="30"/>
+    <rect x="142" y="86" width="3" height="30"/><rect x="149" y="86" width="5" height="30"/>
+    <rect x="158" y="86" width="2" height="30"/><rect x="164" y="86" width="6" height="30"/>
+    <rect x="174" y="86" width="4" height="30"/><rect x="182" y="86" width="2" height="30"/>
+    <rect x="188" y="86" width="6" height="30"/><rect x="198" y="86" width="3" height="30"/>
+    <rect x="205" y="86" width="5" height="30"/>
+  </g>
+  <rect x="90" y="120" width="120" height="8" rx="2" fill="#0b2545" opacity=".8"/>
+  <!-- print head -->
+  <g transform="translate(214 138)">
+    <rect x="-14" y="-10" width="34" height="26" rx="6" fill="#e8631b"/>
+    <rect x="-8" y="-4" width="22" height="12" rx="3" fill="#0b2545"/>
+  </g>
+  <path d="M92 176 q10 12 22 0 q12 12 24 0 q12 12 24 0" fill="none" stroke="#e8631b" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="150" y="196" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#e8631b">BARCODE / THERMAL</text>
+</svg>

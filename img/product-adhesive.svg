@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="roll2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5a623"/>
+      <stop offset="1" stop-color="#e8631b"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- roll body -->
+  <circle cx="150" cy="110" r="72" fill="#0b2545" opacity=".9"/>
+  <circle cx="150" cy="110" r="58" fill="url(#roll2)"/>
+  <circle cx="150" cy="110" r="20" fill="#0b2545"/>
+  <circle cx="150" cy="110" r="9" fill="#f5a623"/>
+  <!-- label segments around the roll -->
+  <g stroke="#c94f12" stroke-width="2" opacity=".8">
+    <path d="M106 74 a58 58 0 0 1 88 0" fill="none"/>
+    <path d="M98 90 a64 64 0 0 1 104 0" fill="none"/>
+    <path d="M96 110 a64 64 0 0 0 108 0" fill="none"/>
+  </g>
+  <!-- peeled label -->
+  <path d="M92 62 Q40 40 44 6 L92 12 Z" fill="#ffffff" stroke="#d8e1ea" stroke-width="2"/>
+  <path d="M56 22 l22 0 M56 30 l22 0 M56 38 l14 0" stroke="#e8631b" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M98 58 q-26 -10 -30 -30" fill="none" stroke="#e8631b" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <!-- dots -->
+  <g fill="#12b5a5">
+    <circle cx="196" cy="76" r="4"/><circle cx="210" cy="94" r="4"/><circle cx="214" cy="120" r="4"/>
+  </g>
+  <text x="150" y="196" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#e8631b">SELF-ADHESIVE</text>
+</svg>

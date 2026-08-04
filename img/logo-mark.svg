@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13315c"/>
+      <stop offset="1" stop-color="#071b33"/>
+    </linearGradient>
+    <linearGradient id="roll" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5a623"/>
+      <stop offset="1" stop-color="#e8631b"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
+  <!-- label roll -->
+  <circle cx="24" cy="32" r="14" fill="none" stroke="url(#roll)" stroke-width="6"/>
+  <circle cx="24" cy="32" r="4.5" fill="#fff"/>
+  <!-- peeling label -->
+  <path d="M38 22 Q46 24 46 34 Q46 44 38 46" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Z -->
+  <path d="M46 22 L56 22 L46 34 L56 34" fill="none" stroke="#fff" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="cf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d2b1f"/>
+      <stop offset="1" stop-color="#241710"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- pouch -->
+  <path d="M96 70 h108 v90 a20 20 0 0 1 -20 20 h-68 a20 20 0 0 1 -20 -20 z" fill="url(#cf)"/>
+  <rect x="96" y="70" width="108" height="18" fill="#e8c27a"/>
+  <!-- label zone -->
+  <rect x="112" y="100" width="76" height="52" rx="6" fill="#fdf6e8"/>
+  <circle cx="150" cy="118" r="11" fill="#8a5a2b"/>
+  <path d="M150 110 l3 6 6.6 .9 -4.8 4.7 1.1 6.6 -5.9 -3.1 -5.9 3.1 1.1 -6.6 -4.8 -4.7 6.6 -.9 z" fill="#3d2b1f"/>
+  <rect x="122" y="136" width="56" height="5" rx="2.5" fill="#3d2b1f" opacity=".8"/>
+  <rect x="132" y="145" width="36" height="4" rx="2" fill="#3d2b1f" opacity=".5"/>
+  <text x="150" y="52" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#8a5a2b">تصميم قهوة مختصة</text>
+</svg>

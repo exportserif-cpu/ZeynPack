@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <defs>
+    <linearGradient id="sl1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#e8631b"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fd0e0"/>
+      <stop offset="1" stop-color="#4a9db5"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="200" rx="90" ry="12" fill="#0b2545" opacity=".12"/>
+  <!-- bottle -->
+  <path d="M118 20 h14 v14 a10 10 0 0 1 10 10 v10 h16 a6 6 0 0 1 6 6 v6 h-68 v-6 a6 6 0 0 1 6 -6 h16 v-10 a10 10 0 0 1 10 -10 z" fill="#071b33"/>
+  <rect x="96" y="66" width="108" height="128" rx="22" fill="url(#bottle)"/>
+  <rect x="96" y="66" width="108" height="128" rx="22" fill="none" stroke="#2e7d94" stroke-width="2"/>
+  <!-- shrink sleeve over bottle -->
+  <path d="M96 96 q54 18 108 0 v52 a22 22 0 0 1 -22 22 h-64 a22 22 0 0 1 -22 -22 z" fill="url(#sl1)" opacity=".94"/>
+  <path d="M96 96 q54 18 108 0" fill="none" stroke="#c94f12" stroke-width="3"/>
+  <!-- design stripes on sleeve -->
+  <path d="M112 112 q38 13 76 0 M112 128 q38 13 76 0 M112 144 q38 13 76 0" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+  <circle cx="150" cy="160" r="12" fill="#fff" opacity=".9"/>
+  <!-- shrink arrows -->
+  <g stroke="#e8631b" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M60 80 l-16 0 M60 80 l6 -6 M60 80 l6 6"/>
+    <path d="M240 80 l16 0 M240 80 l-6 -6 M240 80 l-6 6"/>
+  </g>
+  <text x="150" y="48" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#e8631b">SHRINK SLEEVE</text>
+</svg>
